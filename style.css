@@ -1,0 +1,43 @@
+/* Aggiungi uno sfondo elegante con un gradiente */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Gradiente morbido */
+    color: white;
+}
+
+/* Container centrale con un po' di spazio e arrotondamento */
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Trasparente ma scuro */
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Ombra morbida */
+}
+
+/* Immagine del gatto con effetto hover e animazione */
+#catImage {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px; /* Angoli arrotondati */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Ombra dell'immagine */
+}
+
+#catImage:hover {
+    transform: scale(1.1); /* Zoom all'immagine quando ci passi sopra */
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.4); /* Ombra più intensa quando hover */
+}
+
+/* Titolo centrale, in un colore chiaro */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
